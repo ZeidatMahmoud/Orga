@@ -1,0 +1,10 @@
+module conversion(R,op);
+input [15:0]R ;
+output op ;
+integer op ;
+
+always @(R)
+begin
+op <= R ;
+end 
+endmodule 
